@@ -1,5 +1,5 @@
-- name: Fork Sync
-  uses: tgymnich/fork-sync@v1.2.1
+name: Fork Sync
+uses: tgymnich/fork-sync@v1.2.1
 
 #name: Merge upstream branches
 #on:
