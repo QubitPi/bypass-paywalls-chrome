@@ -18,10 +18,10 @@
 * [Download and install the latest version](https://github.com/iamadamdev/bypass-paywalls-chrome/releases/latest/download/bypass-paywalls-firefox.xpi)
 
 **Notes**
-* Every time you open Chrome it may warn you about running extensions in developer mode, just click &#128473; to keep the extension enabled.
+* Every time you open Chrome it may warn you about running extensions in developer mode, just click &#10005; to keep the extension enabled.
 * You will be logged out for any site you have checked.
 * This extension works best alongside the adblocker uBlock Origin.
-* With the Firefox version you get automatic updates.
+* On the Firefox version automatic updates are enabled.
 
 ### Bypass the following sites' paywalls with this extension:
 
@@ -46,6 +46,7 @@
 [De Volkskrant](https://www.volkskrant.nl)\
 [DeMorgen](https://www.demorgen.be)\
 [Denver Post](https://www.denverpost.com)\
+[Diario Financiero](https://www.df.cl)\
 [Dynamed Plus](https://www.dynamed.com)\
 [Eindhovens Dagblad](https://www.ed.nl)\
 [El Mercurio](https://www.elmercurio.com)\
@@ -60,6 +61,7 @@
 [Fortune](https://www.fortune.com)\
 [Genomeweb](https://www.genomeweb.com)\
 [Glassdoor](https://www.glassdoor.com)\
+[Globes](https://www.globes.co.il)\
 [Haaretz.co.il](https://www.haaretz.co.il)\
 [Haaretz.com](https://www.haaretz.com)\
 [Handelsblatt](https://www.handelsblatt.com)\
@@ -71,7 +73,8 @@
 [History Extra](https://www.historyextra.com)\
 [Il Manifesto](https://www.ilmanifesto.it)\
 [Inc.com](https://www.inc.com)\
-[Investors Chronicle](https://www.investorschronicle.co.uk)\
+[Interest.co.nz](https://www.interest.co.nz)\
+[Investors Chronicle](https://www.investorschronicle.co.uk)
 [L'Écho](https://www.lecho.be)\
 [L.A. Business Journal](https://labusinessjournal.com)\
 [La Nación](https://www.lanacion.com.ar)\
@@ -87,6 +90,7 @@
 [MIT Sloan Management Review](https://sloanreview.mit.edu)\
 [MIT Technology Review](https://www.technologyreview.com)\
 [Medium](https://www.medium.com)\
+[Medscape](https://www.medscape.com)\
 [Mexicon News Daily](https://mexiconewsdaily.com)\
 [Mountain View Voice](https://www.mv-voice.com)\
 [NRC Handelsblad](https://www.nrc.nl)\
@@ -109,6 +113,8 @@
 [Seeking Alpha](https://seekingalpha.com)\
 [SOFREP](https://sofrep.com)\
 [Statista](https://www.statista.com)\
+[Star Tribune](https://www.startribune.com)\
+[Stuff](https://www.stuff.co.nz)\
 [SunSentinel](https://www.sun-sentinel.com)\
 [Tech in Asia](https://www.techinasia.com)\
 [Telegraaf](https://www.telegraaf.nl)\
@@ -116,8 +122,6 @@
 [The Advocate](https://www.theadvocate.com.au)\
 [The Age](https://www.theage.com.au)\
 [The American Interest](https://www.the-american-interest.com)\
-[The Athletic](https://www.theathletic.com)\
-[The Athletic UK](https://www.theathletic.co.uk)\
 [The Atlantic](https://www.theatlantic.com)\
 [The Australian Financial Review](https://www.afr.com)\
 [The Australian](https://www.theaustralian.com.au)\
@@ -138,6 +142,7 @@
 [The Mercury Tasmania](https://www.themercury.com.au)\
 [The Morning Call](https://www.mcall.com)\
 [The Nation](https://www.thenation.com)\
+[The National](https://www.thenational.scot)\
 [The New Statesman](https://www.newstatesman.com)\
 [The New York Times](https://www.nytimes.com)\
 [The New Yorker](https://www.newyorker.com)\

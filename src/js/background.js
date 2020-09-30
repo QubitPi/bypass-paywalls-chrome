@@ -42,8 +42,6 @@ const allowCookies = [
   'the-american-interest.com',
   'theadvocate.com.au',
   'theage.com.au',
-  'theathletic.com',
-  'theathletic.co.uk',
   'theatlantic.com',
   'theaustralian.com.au',
   'thediplomat.com',
@@ -56,7 +54,8 @@ const allowCookies = [
   'washingtonpost.com',
   'wired.com',
   'nzz.ch',
-  'handelsblatt.com'
+  'handelsblatt.com',
+  'thehindu.com'
 ];
 
 // Removes cookies after page load
@@ -73,6 +72,7 @@ const removeCookies = [
   'ed.nl',
   'examiner.com.au',
   'ft.com',
+  'globes.co.il',
   'harpers.org',
   'hbr.org',
   'lesechos.fr',
@@ -96,7 +96,6 @@ const removeCookies = [
   'thestar.com',
   'towardsdatascience.com',
   'vn.nl',
-  'washingtonpost.com',
   'wired.com',
   'wsj.com'
 ];
@@ -107,7 +106,6 @@ let _removeCookies = removeCookies;
 // select specific cookie(s) to hold from removeCookies domains
 const removeCookiesSelectHold = {
   'qz.com': ['gdpr'],
-  'washingtonpost.com': ['wp_gdpr'],
   'wsj.com': ['wsjregion']
 };
 
@@ -136,17 +134,18 @@ const useGoogleBotSites = [
   'quora.com',
   'seekingalpha.com',
   'telegraph.co.uk',
-  'theathletic.com',
-  'theathletic.co.uk',
   'theaustralian.com.au',
   'themarker.com',
   'themercury.com.au',
+  'thenational.scot',
   'thetimes.co.uk',
   'wsj.com',
   'kansascity.com',
   'republic.ru',
   'nzz.ch',
-  'handelsblatt.com'
+  'handelsblatt.com',
+  'washingtonpost.com',
+  'df.cl'
 ];
 
 // Contains google bot sites above plus any custom sites
@@ -174,13 +173,16 @@ const blockedRegexes = {
   'inquirer.com': /.+\.tinypass\.com\/.+/,
   'lastampa.it': /.+\.repstatic\.it\/minify\/sites\/lastampa\/.+\/config\.cache\.php\?name=social_js/,
   'lrb.co.uk': /.+\.tinypass\.com\/.+/,
+  'medscape.com': /.+\.medscapestatic\.com\/.*medscape-library\.js/,
   'nzherald.co.nz': /nzherald\.co\.nz\/.+\/headjs\/.+\.js/,
+  'interest.co.nz': /(.+\.presspatron\.com.+|.+interest\.co\.nz.+pp-ablock-banner\.js)/,
   'repubblica.it': /scripts\.repubblica\.it\/pw\/pw\.js.+/,
   'spectator.co.uk': /.+\.tinypass\.com\/.+/,
   'spectator.com.au': /.+\.tinypass\.com\/.+/,
   'telegraph.co.uk': /.+telegraph\.co\.uk.+martech.+/,
   'thecourier.com.au': /.+cdn-au\.piano\.io\/api\/tinypass.+\.js/,
   'thenation.com': /thenation\.com\/.+\/paywall-script\.php/,
+  'thenational.scot': /(.+\.tinypass\.com\/.+|.+thenational\.scot.+omniture\.js|.+thenational\.scot.+responsive-sync.+)/,
   'thewrap.com': /thewrap\.com\/.+\/wallkit\.js/,
   'wsj.com': /cdn\.ampproject\.org\/v\d\/amp-access-.+\.js/,
   'historyextra.com': /.+\.evolok\.net\/.+\/authorize\/.+/,
@@ -189,7 +191,9 @@ const blockedRegexes = {
   'elmercurio.com': /(merreader\.emol\.cl\/assets\/js\/merPramV2.js|staticmer\.emol\.cl\/js\/inversiones\/PramModal.+\.js)/,
   'sloanreview.mit.edu': /(.+\.tinypass\.com\/.+|.+\.netdna-ssl\.com\/wp-content\/themes\/smr\/assets\/js\/libs\/welcome-ad\.js)/,
   'latercera.com': /.+\.cxense\.com\/+/,
-  'lesechos.fr': /.+\.tinypass\.com\/.+/
+  'lesechos.fr': /.+\.tinypass\.com\/.+/,
+  'washingtonpost.com': /.+\.washingtonpost\.com\/dr\/resources\/dist\/washpost\/pwapi-proxy\.min\.js/,
+  'thehindu.com': /ajax\.cloudflare\.com\/cdn-cgi\/scripts\/.+\/cloudflare-static\/rocket-loader\.min\.js/
 };
 
 const userAgentDesktop = 'Mozilla/5.0 (compatible; Googlebot/2.1; +http://www.google.com/bot.html)';
