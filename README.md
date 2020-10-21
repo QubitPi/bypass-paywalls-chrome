@@ -66,6 +66,7 @@
 [Genomeweb](https://www.genomeweb.com)\
 [Glassdoor](https://www.glassdoor.com)\
 [Globes](https://www.globes.co.il)\
+[Grubstreet](https://www.grubstreet.com)\
 [Haaretz.co.il](https://www.haaretz.co.il)\
 [Haaretz.com](https://www.haaretz.com)\
 [Handelsblatt](https://www.handelsblatt.com)\
@@ -98,6 +99,7 @@
 [Medscape](https://www.medscape.com)\
 [Mexicon News Daily](https://mexiconewsdaily.com)\
 [Mountain View Voice](https://www.mv-voice.com)\
+[New York Daily News](https://www.nydailynews.com/)\
 [NRC Handelsblad](https://www.nrc.nl)\
 [NT News](https://www.ntnews.com.au)\
 [National Post](https://www.nationalpost.com)\
@@ -117,6 +119,7 @@
 [San Francisco Chronicle](https://www.sfchronicle.com)\
 [Scientific American](https://www.scientificamerican.com)\
 [Seeking Alpha](https://seekingalpha.com)\
+[Slate](https://slate.com)\
 [SOFREP](https://sofrep.com)\
 [Statista](https://www.statista.com)\
 [Star Tribune](https://www.startribune.com)\
@@ -135,6 +138,7 @@
 [The Canberra Times](https://www.canberratimes.com.au)\
 [The Courier](https://www.thecourier.com.au)\
 [The Courier Mail](https://www.couriermail.com.au)\
+[The Cut](https://www.thecut.com)\
 [The Daily Telegraph](https://www.dailytelegraph.com.au)\
 [The Diplomat](https://www.thediplomat.com)\
 [The Economist](https://www.economist.com)\
@@ -171,6 +175,7 @@
 [Trouw](https://www.trouw.nl)\
 [Vanity Fair](https://www.vanityfair.com)\
 [Vrij Nederland](https://www.vn.nl)\
+[Vulture](https://www.vulture.com/)\
 [Winston-Salem Journal](https://journalnow.com)\
 [Wired](https://www.wired.com)\
 [World Politics Review](https://www.worldpoliticsreview.com)

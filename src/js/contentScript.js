@@ -269,6 +269,19 @@ if (matchDomain('elmercurio.com')) {
 } else if (matchDomain('nytimes.com')) {
   const previewButton = document.querySelector('.css-3s1ce0');
   if (previewButton) { previewButton.click(); }
+  // Prevent bottom dock from appearing
+  new window.MutationObserver(function (mutations) {
+    for (const mutation of mutations) {
+      for (const node of mutation.addedNodes) {
+        if (node instanceof window.HTMLElement) {
+          if (node.matches('.css-3fbowa')) {
+            removeDOMElement(node);
+            this.disconnect();
+          }
+        }
+      }
+    }
+  }).observe(document, { subtree: true, childList: true });
 } else if (matchDomain('technologyreview.com')) {
   // The class of banner is like 'overlayFooter__wrapper--3DhFn', which is hard to select exactly
   const subscribeBanner = document.querySelector('[class*=overlayFooter__wrapper]');
@@ -502,7 +515,7 @@ function NZHerald () {
     if (s.src === '') {
       const vId = video.getAttribute('data-account');
       const vPlay = video.getAttribute('data-player');
-      const vScript = document.createElement("script");
+      const vScript = document.createElement('script');
       vScript.type = 'text/javascript';
       vScript.async = true;
       vScript.src = 'https://players.brightcove.net/' + vId + '/' + vPlay + '_default/index.min.js';
@@ -521,7 +534,7 @@ function NZHerald () {
       }
     }
   }
-    
+
   window.setTimeout(function () {
     const articleBody = document.querySelector('.article__body');
     if (articleBody) {
