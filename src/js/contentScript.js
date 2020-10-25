@@ -1,4 +1,4 @@
-if (!matchDomain(['seekingalpha.com', 'sfchronicle.com', 'cen.acs.org'])) {
+if (!matchDomain(['seekingalpha.com', 'sfchronicle.com', 'cen.acs.org', 'thetimes.co.uk'])) {
   window.localStorage.clear();
 }
 
@@ -78,7 +78,7 @@ if (matchDomain('elmercurio.com')) {
   removeDOMElement(paywall);
 } else if (matchDomain('washingtonpost.com')) {
   // Remove all elements with the id contains 'paywall'
-  document.querySelectorAll('div[data-qa="paywall"]').forEach(function (el) {
+  document.querySelectorAll('div[id^="paywall"]').forEach(function (el) {
     removeDOMElement(el);
   });
   const html = document.querySelector('html');
@@ -499,6 +499,11 @@ if (matchDomain('elmercurio.com')) {
     const adblockNotif = document.querySelector('.adblock-notif');
     removeDOMElement(adblockNotif);
   }, 800); // Delay (in milliseconds)
+} else if (matchDomain('thetimes.co.uk')) {
+  const block = document.querySelector('.subscription-block');
+  const adBlock = document.getElementById('ad-article-inline');
+  const adHeader = document.getElementById('sticky-ad-header');
+  removeDOMElement(block, adBlock, adHeader);
 }
 
 function matchDomain (domains) {
